@@ -12,7 +12,6 @@ end
 
 def self.all
   puts @@all.map { |dog| dog.name }
-  binding.pry
 end
 
 def self.clear_all
